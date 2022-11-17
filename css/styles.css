@@ -247,7 +247,6 @@ fill: var(--bluecolor);
    
     border: none;
     font-family: inherit;
-
 }
 
 
@@ -650,7 +649,7 @@ h2,h3,p{
     display: flex;
     align-items: baseline;
 }
-.joinus_text {
+.joinus_text, .title_s {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -695,6 +694,7 @@ h2,h3,p{
 .joinus-item:hover {
     background-color: var(--bluecolor);
 }
+
 
 
 
@@ -745,3 +745,79 @@ h2,h3,p{
     opacity: 0;
     pointer-events: none;
 }
+
+/* Subscribe */
+.subscribe {
+margin-left: 93px;
+}
+.sub_form input {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+}
+
+.sub_form input {
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.mail_input {
+padding-left: 16px;
+padding-top: 15px;
+padding-bottom: 15px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+align-items: center;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.subbutton {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 12px 20px;
+    min-width: 200px;
+    height: 50px;
+    background: var(--activebutton);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    font-family: inherit;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+}
+.icon_send_t {
+    margin-left: 10px;
+    fill: var(--whitecolor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+font-family: inherit;
