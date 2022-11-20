@@ -386,6 +386,68 @@
         <use href="./img/icons.svg#icon-cancel-circle"></use>
         </svg>
       </button>
+
+  
+  <div class="modal_forms">
+    <h3>Залиште свої дані, ми вам передзвонимо</h3>
+    <form>
+      <div>
+        <p>Ім'я</p>
+          <label for="user_name" class="forms_label">
+            <input type="text" name="user_name" required placeholder id="user_name" class="forms_input" minlength="3">
+            <svg class="icon_form">
+              <use href="./img/icons.svg#icon-person"></use>
+            </svg>
+          </label>
+      </div>
+      <div>
+        <p>Телефон</p>
+        <label for="user_phone" class="forms_label">
+          <input type="text" name="user_phone" required placeholder id="user_phone" class="forms_input" minlength="3">
+          <svg class="icon_form">
+              <use href="./img/icons.svg#icon-phone"></use>
+            </svg>
+        </label>
+      </div>
+      <div>
+        <p>Пошта</p>
+        <label for="user_mail" class="forms_label">
+          <input type="text" name="user_mail" required placeholder id="user_mail" class="forms_input" minlength="3">
+          <svg class="icon_form">
+              <use href="./img/icons.svg#icon-mail"></use>
+            </svg>
+        </label>
+      </div>
+      <div class="commitl">
+         <p>Коментар</p>
+          <label for="commit">
+            <textarea name="commit" 
+            placeholder="Введіть текст"
+            id="commit" 
+            class="commits"
+            rows="8"
+            ></textarea>
+          </label>
+      </div>
+      <div>
+        <label for="soglasie" class="soglasie">
+          <input 
+          type="checkbox"
+          name="mail"
+          id="soglasie"
+          class="sogl_check"
+          required >
+          
+          <span class="checkbox_icon"></span>
+          <span class="agree">Погоджуюся з розсилкою та приймаю</span> 
+          <a href="#" class="soglasie_link">Умови договору</a>
+        </label>
+      </div>
+      <button class="modal_form_btn" type="submit" data-modal-open>
+        <span class="modal_form_txt">Відправити</span>
+      </button>
+    </form>
+  </div>
   </div>
 </div>
 
