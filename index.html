@@ -365,13 +365,16 @@
         <!-- Subscribe -->
     <div class="subscribe">
       <form name="sub_form" class="sub_form">
-        <h3 class="title_s">Підпишіться на розсилку</h3>
+        <p class="title_s">Підпишіться на розсилку</p>
         <div class="mail_sub">
           <label for="send" class="send">
             <input type="email" name="email_input" class="email_input" placeholder="E-mail" id="send">
           </label>
             <button type="submit" class="subbutton" data-modal-open>
-              <span class="text_sub_s">Підписатися</span> 
+              Підписатися
+              <svg class="links-icon-send" width="24" height="24">
+                      <use href="./img/icons.svg#icon-send"></use>
+                    </svg>
               </button>
         </div>
         </form> 
@@ -388,11 +391,10 @@
       </button>
 
   
-  <div class="modal_forms">
-    <h3>Залиште свої дані, ми вам передзвонимо</h3>
+    <p class="par_txt">Залиште свої дані, ми вам передзвонимо</h3> 
     <form>
-      <div>
-        <p>Ім'я</p>
+      <div class="modal_forms">
+        <span class="span_name">Ім'я</span>
           <label for="user_name" class="forms_label">
             <input type="text" name="user_name" required placeholder id="user_name" class="forms_input" minlength="3">
             <svg class="icon_form">
@@ -400,8 +402,8 @@
             </svg>
           </label>
       </div>
-      <div>
-        <p>Телефон</p>
+      <div class="modal_forms">
+        <span class="span_name">Телефон</span>
         <label for="user_phone" class="forms_label">
           <input type="text" name="user_phone" required placeholder id="user_phone" class="forms_input" minlength="3">
           <svg class="icon_form">
@@ -409,8 +411,8 @@
             </svg>
         </label>
       </div>
-      <div>
-        <p>Пошта</p>
+      <div class="modal_forms">
+        <span class="span_name">Пошта</span>
         <label for="user_mail" class="forms_label">
           <input type="text" name="user_mail" required placeholder id="user_mail" class="forms_input" minlength="3">
           <svg class="icon_form">
@@ -419,7 +421,7 @@
         </label>
       </div>
       <div class="commitl">
-         <p>Коментар</p>
+         <span class="span_name">Коментар</span>
           <label for="commit">
             <textarea name="commit" 
             placeholder="Введіть текст"
@@ -447,7 +449,6 @@
         <span class="modal_form_txt">Відправити</span>
       </button>
     </form>
-  </div>
   </div>
 </div>
 
